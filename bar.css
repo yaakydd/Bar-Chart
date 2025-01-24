@@ -1,0 +1,37 @@
+body {
+    font-family: 'Playfair Display';
+    background-color: #E6F7FF;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display';
+  color: #407C87;
+}
+
+#chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bar {
+    fill: #88BCC0; 
+}
+
+.bar:hover {
+    fill: white;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #D3E1E2;
+    border: 1px solid #eef1f6; 
+  box-shadow: 5px 5px 20px 10px rgba(0, 0.1, 0.1, 0.2);
+    padding: 10px;
+  border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    color: #407C87; 
+}
